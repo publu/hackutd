@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SwampHacks - Thanks!</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:image" content="http://i.imgur.com/YV68MpA.png">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/resume.css">
+</head>
+<body>
+	<div class="container">
+		<section id="image-header">
+			<a href="http://swamphacks.com">
+				<img class="back" src="img/back-arrow.png" class="logo" />
+				<img class="logo" src="img/logo.png" class="logo" />
+			</a>
+			<img class="progress-circles" src="img/progress-2.png" alt="" />
+		</section>
+
+		<section id="thankyou-header">
+			<h3>Hey, you lovely human, you!  Thanks for applying to SwampHacks.</h3>
+			<p>Go ahead and review the information we got from MyMLH, then add some additional info (like your resumé, GitHub/LinkedIn urls, etc.) and then you're all set!</p>
+		</section>
+
+		<section id="form">
+		<form id="form">
+			<div class="row">
+				<label for="firstname">First Name <span class="asterisk">*</span></label>
+				<input type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1" id="firstname" required>
+			</div>
+			<div class="row">
+				<label for="lastname">Last Name <span class="asterisk">*</span></label>
+				<input type="text" class="form-control" placeholder="Last Name" aria-describedby="basic-addon1"  id="lastname" required>
+			</div>
+			<div class="row">
+				<label for="dob">Date of Birth <span class="asterisk">*</span></label>
+				<input type="date" class="form-control" aria-describedby="basic-addon1" id="dob" required>
+			</div>
+			<div class="row">
+				<label for="gender">Gender </label>
+				<input type="text" class="form-control" placeholder="Gender" aria-describedby="basic-addon1" id="gender">
+			</div>
+			<div class="row">
+				<label for="email">E-Mail Address <span class="asterisk">*</span></label>
+				<input type="email" class="form-control" placeholder="E-Mail" aria-describedby="basic-addon1"  id="email" required>
+			</div>
+			<div class="row">
+				<label for="phone">Phone Number <span class="asterisk">*</span></label>
+				<input type="text" class="form-control" placeholder="+1 (555) 555-5555" aria-describedby="basic-addon1" id="phone" required>
+			</div>
+			<div class="row">
+				<label for="major">Major <span class="asterisk">*</span></label>
+				<input type="text" class="form-control" placeholder="Major" aria-describedby="basic-addon1" id="major" required>
+			</div>
+			<div class="row">
+				<label for="school">School <span class="asterisk">*</span></label>
+				<input type="text" class="form-control" placeholder="School" aria-describedby="basic-addon1" id="school" required>
+			</div>
+			<div class="row">
+				<label for="diet">Dietary restrictions <span class="asterisk">*</span></label>
+				<input type="text" class="form-control" placeholder="Dietary restrictions" aria-describedby="basic-addon1" id="diet" required>
+			</div>
+			<div class="row">
+				<label for="shirt">Shirt size <span class="asterisk">*</span></label>
+				<select required name="shirt" id="shirt">
+					<option value="" disabled selected style="display: none;">Select shirt size...</option>
+					<option value="Women's - XS">Women's - XS</option>
+					<option value="Women's - S">Women's - S</option>
+					<option value="Women's - M">Women's - M</option>
+					<option value="Women's - L">Women's - L</option>
+					<option value="Women's - XL">Women's - XL</option>
+					<option value="Unisex - XS">Unisex - XS</option>
+					<option value="Unisex - S">Unisex - S</option>
+					<option value="Unisex - M">Unisex - M</option>
+					<option value="Unisex - L">Unisex - L</option>
+					<option value="Unisex - XL">Unisex - XL</option>
+				</select>
+			</div>
+			<div class="row">
+				<label for="level">Level of study <span class="asterisk">*</span></label>
+				<select name="study" id="study" required>
+					<option value="" disabled selected style="display: none;">Select level of study...</option>
+					<option value="University (Undergraduate)">University (Undergraduate)</option>
+					<option value="University (Master's / Doctoral)">University (Master's / Doctoral)</option>
+					<option value="Vocational / Code School">Vocational / Code School</option>
+					<option value="Not Currently a Student">Not Currently a Student</option>
+					<option value="Other">Other</option>
+				</select>
+			</div>
+			<div class="row">
+				<label for="reusme" id="resume-button"> Upload your resume (PDF's only please!) <span class="asterisk">*</span></label>
+				<input type="file" id="resume" class="inputfile" required>
+				<label for="resume" class="browse">
+				<span style="display: inline-flex; align-items: center;">No file chosen</span> <strong style="display: inline-flex; align-items: center;"> Choose a file...</strong></label>
+				<p id="valid-file" style="color: white;"></p>
+
+			</div>
+			<div class="row">
+				<label for="linkedin">LinkedIn URL</label>
+				<input type="text" class="form-control" placeholder="https://www.linkedin.com/in/..." aria-describedby="basic-addon1" required id="linkedin">
+			</div>
+			<div class="row">
+				<label for="github">GitHub URL</label>
+				<input type="text" class="form-control" placeholder="https://github.com/..." aria-describedby="basic-addon1" required id="github">
+			</div>
+			<!--<div class="input-group">
+			<input type="email" class="form-control" placeholder="email" id="email">
+				<input type="password" class="form-control" placeholder="password" id="password">
+			</div>-->
+			<div id="submit">
+				<a class="btn btn-default" id="submit-info">SUBMIT</a>
+				<span class="error"></span>
+			</div>
+		</section>
+		</form>
+	</div>
+
+	<!-- scriptz -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
+	<script src="js/keys.js"></script>
+	<script src="js/resume.js"></script>
+	<script>
+  // Initialize Firebase
+  	var config = {
+  		apiKey: keys.apiKey,
+  		authDomain: keys.authDomain,
+  		databaseURL: keys.databaseURL,
+  		storageBucket: keys.storageBucket,
+  		messagingSenderId: keys.messagingSenderId
+  	};
+  	firebase.initializeApp(config);
+
+
+
+		//resume input text filler
+		var inputs = document.querySelectorAll( '.inputfile' );
+		Array.prototype.forEach.call( inputs, function( input )
+		{
+			var label	 = input.nextElementSibling,
+				labelVal = label.innerHTML;
+
+			input.addEventListener( 'change', function( e )
+			{
+				var fileName = '';
+				if( this.files && this.files.length > 1 )
+					fileName = ( this.getAttribute( 'data-multiple-caption' ) || '' ).replace( '{count}', this.files.length );
+				else
+					fileName = e.target.value.split( '\\' ).pop();
+					console.log(fileName);
+					if (fileName.split('.').pop() != 'pdf') {
+						$('#valid-file').text(" Did you upload a PDF? ").show().fadeOut( 3000 );
+					}
+
+				if( fileName ) {
+					label.querySelector( 'span' ).innerHTML = fileName;
+					var resumeSpan = label.querySelector("span");
+					var resumeStrong = label.querySelector("strong");
+					resumeSpan.classList.add("inputAdded");
+					resumeSpan.classList.add("inputAddedText");
+					resumeStrong.classList.add("inputAdded");
+				}
+
+				else
+					label.innerHTML = labelVal;
+	});
+});
+</script>
+
+</body>
+</html>
