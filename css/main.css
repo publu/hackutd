@@ -423,7 +423,7 @@ h4.date {
 }
 
 #summary {
-  background-color: #061621;
+  background-color: #4B4D71;
   text-align: center;
   color: white;
   padding-top: 5%;
@@ -435,9 +435,9 @@ h4.date {
 }
 
 #audience {
-  background: -webkit-linear-gradient(left top, #5bdbec, #b2e8e4);
+  background: -webkit-linear-gradient(left top, #4B4D71, #4B4D71);
   background: -moz-linear-gradient(bottom right, blue, green); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #5bdbec, #b2e8e4); /* Standard syntax */  text-align: center;
+  background: linear-gradient(to bottom right, #4B4D71, #4B4D71); /* Standard syntax */  text-align: center;
   color: white;
   padding-bottom: 200px;
   padding-top: 14%;
@@ -446,7 +446,7 @@ h4.date {
 #faqs {
   text-align: center;
   padding-top: 0px;
-  background-color: #061621;
+  background-color: #4B4D71;
   color: white;
 }
 
@@ -471,7 +471,7 @@ h4.date {
 }
 
 #faqs .faq-block p {
-  color: #73aeee;
+  color: #5ddced;
 }
 
 
@@ -491,7 +491,7 @@ h4.date {
   padding: 10px 8px;
   font-weight: bold;
   background-color: #fff;
-  color: #73aeee;
+  color: #4B4D71;
   border: none;
   border-radius: 50px;
   outline: none;
@@ -552,11 +552,11 @@ button {
 }
 
 #action .internal-pos {
-  color: #5ddbed;
+  color: #4B4D71;
 }
 
 #action .internal-pos button {
-  background-color: #5ddbed;
+  background-color: #4B4D71;
 }
 
 #action button:hover {
@@ -590,10 +590,10 @@ button {
 }
 
 #footer {
-  background-color: #061621;
+  background-color: #4B4D71;
   background: -webkit-linear-gradient(left top, yellow, purple);
   background: -moz-linear-gradient(bottom right, purple, yellow); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom, #47d8ef, #8be2e8); /* Standard syntax */
+  background: linear-gradient(to bottom, #4B4D71, #4B4D71); /* Standard syntax */
 }
 
 #footer .container {
@@ -621,7 +621,7 @@ button {
   text-align: center;
   padding-top: 13px;
   font-size: 34px;
-  color: #5ddbed;
+  color: #4B4D71;
 }
 
 #footer .social-row .fa-envelope {
@@ -680,11 +680,11 @@ button {
 
 #schedule {
     text-align: center;
-    background: #061621;
+    background: #4B4D71;
     color: white;
     background: -webkit-linear-gradient(left top, yellow, purple);
     background: -moz-linear-gradient(bottom right, purple, yellow); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom, #7eedbc, #5dec9a); /* Standard syntax */
+    background: linear-gradient(to bottom, #4B4D71, #4B4D71); /* Standard syntax */
 
 }
 
@@ -750,7 +750,7 @@ button {
   font-weight: bolder;
   font-size: 20px;
   margin: 6px 0;
-  color: #7dedbb;
+  color: #5ddced;
   text-align: right;
 }
 
