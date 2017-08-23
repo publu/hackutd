@@ -9,11 +9,11 @@ $(document).ready(function () {
     if (hrs >= 19 || hrs < 6) {
         title.addClass("night");
     } else if(hrs > 16 && hrs < 19) {
-        title.addClass("sunset");
+        title.addClass("night");
     } else if(hrs >= 6 && hrs < 9) {
-        title.addClass("sunrise");
+        title.addClass("night");
     }   else {
-        title.addClass("day");
+        title.addClass("night");
     }
 
     $('img.logo').fadeIn(1000).removeClass('.logo');
