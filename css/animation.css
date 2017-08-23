@@ -30,7 +30,7 @@ li
 }
 
 .swamphacks {
-	background-image: url(../img/logo.svg);
+	background-image: url(../img/HDFW.png);
 	position: absolute;
 	top: 23%;
 	left: -5%;
@@ -42,7 +42,7 @@ li
 
 }
 
-.swamphacks-word {
+<!--.swamphacks-word {
 	background-image: url(../img/wordmark.svg);
 	position: absolute;
 	top: 41%;
@@ -53,7 +53,7 @@ li
 	background-repeat: no-repeat;
 	background-position: bottom center;
 }
-
+-->
 .swamphacks-text {
 	margin-top: 350px;
 }
