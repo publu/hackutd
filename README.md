@@ -1,5 +1,3 @@
-# SwampHacks 2017
+# Proof of Hack
 
-Designed by Takashi Wickes.  Built by Takashi Wickes, Nikhil Thota, and Austin Brown in Gainesville, FL.
-
-[See it here.](http://2017.swamphacks.com)
+[See it here.](https://publu.github.io/hackutd)
