@@ -1,3 +1,3 @@
 # Proof of Hack
 
-[See it here.](https://publu.github.io/hackutd)
+[See it here.](https://publu.github.io/proofofhack)
