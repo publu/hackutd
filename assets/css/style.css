@@ -1,0 +1,91 @@
+/* ================= */
+/*       GLOBALS     */
+/* ================= */
+* {
+    text-align: center;
+}
+body {
+    height: 100%;
+    background-color: #272833;
+    /** TAKE OUT LATER **/
+    color: white;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container-fluid{
+    padding: 0;
+}
+/* ================= */
+/*        TITLE      */
+/* ================= */
+.title-logo {
+    width: 250px;
+    height: 60px;
+}
+
+.image-wrapper {
+    margin: 150px auto 0 auto;
+}
+
+.title-text-wrapper{
+    margin-top: 30px;
+}
+
+
+.title-text-wrapper h2 {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.button-wrapper {
+    margin: 50px auto 75px auto;
+}
+.register-button {
+    width: 250px;
+    height: 55px;
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.2s all ease;
+}
+
+.register-button:hover {
+    background-color: #ffdd17;
+    color: #272833;
+}
+/* ================= */
+/*        INFO       */
+/* ================= */
+#info {
+    width: 100%;
+    background-color: #d6d6d6;
+    color: black;
+    padding: 50px;
+}
+
+.mini-text-info {
+    padding: 5%;
+}
+.mini-text-info li {
+    margin-bottom: 50px;
+}
+
+.mini-info-box {
+    padding: 30px;
+    background-color: #272833;
+    color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+mini-text-info {
+    
+}
