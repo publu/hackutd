@@ -61,16 +61,24 @@ span {
 .button-wrapper {
     margin: 50px auto 100px auto;
 }
-.register-button a:hover {
-    background-color: transparent;
-    color: white;
-}
-.button-wrapper a {
+
+.btn-secondary {
+    font-weight: 700;
+    font-size: 20px;
+    width: 230px;
+    height: 65px;
+    background-color: #edc255;
     color: #272833;
 }
-.button-wrapper a:hover {
-    text-decoration: none;
-    color: white;
+
+.btn-secondary:hover,
+.btn-secondary:active{
+    color: #edc255;
+    background-color: #272833;
+}
+
+.dropdown-menu {
+    width: 230px !important;
 }
 /* ================= */
 /*        INFO       */
@@ -417,7 +425,6 @@ a.involvement-button.medium-p {
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
-
 
 /* ================= */
 /*      MQUERIES     */
