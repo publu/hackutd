@@ -9,7 +9,7 @@
 body {
     height: 100%;
     /** TAKE OUT LATER **/
-    
+
     color: white;
 }
 ul {
@@ -212,6 +212,10 @@ span {
 .sponsors-wrapper h1 {
     padding-top: 75px;
     font-weight: 700;
+}
+
+#sponsors img {
+    max-width: 250px;
 }
 
 /* ================= */
@@ -441,7 +445,7 @@ a.involvement-button.medium-p {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
-    
+
   -webkit-animation-name: hvr-bob-float, hvr-bob;
   animation-name: hvr-bob-float, hvr-bob;
   -webkit-animation-duration: .3s, 1.5s;
@@ -470,12 +474,12 @@ a.involvement-button.medium-p {
     .vertical-line {
         display: none;
     }
-    
+
     #footer li h2,
     #footer li p {
         text-align: center;
     }
-    
+
     .footer-wrapper h2 {
         padding-top: 35px;
     }
