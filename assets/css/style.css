@@ -461,11 +461,17 @@ a.involvement-button.medium-p {
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+span.trspan{
+    font-size: 20px;
+}
+span.ospan{
+    font-size: 20px;
+    color: #111111;
 
+}
 /* ================= */
 /*      MQUERIES     */
 /* ================= */
-
 @media only screen and (max-width: 768px) {
     .pull-right,
     .pull-left {
